@@ -29,11 +29,12 @@ code {
   gap: 0.25rem;
   --time-delay: 10;
   --amplitude: 200px;
+
 }
 
 .bead {
-  height: 1rem;
   width: 1rem;
+  aspect-ratio: 1/1;
   border-radius: 50%;
   background: rgba(var(--white)/ 0);
   backdrop-filter: blur(5px);
@@ -93,7 +94,7 @@ form[name=shm-config] label div {
   gap: 8px;
   color: rgba(var(--white)/ 0.8);
   margin-right: 16px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
 }
 
