@@ -37,3 +37,14 @@ shmConfigFormEle.addEventListener("submit", function (event) {
 
 
 
+/* 
+The general equation for a wave exhibiting Simple Harmonic Motion (SHM) is y(x,t) = A cos(ωt - kx + φ), where 'y' is displacement, 'A' is amplitude, 'ω' is angular frequency, 'k' is wave number, 't' is time, 'x' is position, and 'φ' is the phase constant. 
+Here's a more detailed breakdown:
+y(x,t): Represents the displacement of the wave at position x and time t. 
+A: The amplitude, which is the maximum displacement from the equilibrium position. 
+ω (omega): The angular frequency, related to the frequency (f) by ω = 2πf. 
+k: The wave number, related to the wavelength (λ) by k = 2π/λ. 
+t: Time. 
+x: Position. 
+φ (phi): The phase constant, which determines the initial phase of the wave at t=0 and x=0. 
+*/
